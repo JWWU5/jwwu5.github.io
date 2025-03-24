@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+}
+h1 {
+    color: #333;
+}
+#about-me, #projects {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
