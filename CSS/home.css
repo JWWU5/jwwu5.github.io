@@ -6,7 +6,18 @@ body {
     line-height: 1.6;
     margin: 20px;
     padding: 0;
+    background: hsla(0, 92%, 42%, 1);
+
+    background: linear-gradient(135deg, hsla(0, 92%, 42%, 1) 0%, hsla(0, 0%, 0%, 1) 81%);
+
+    background: -moz-linear-gradient(135deg, hsla(0, 92%, 42%, 1) 0%, hsla(0, 0%, 0%, 1) 81%);
+
+    background: -webkit-linear-gradient(135deg, hsla(0, 92%, 42%, 1) 0%, hsla(0, 0%, 0%, 1) 81%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CE0909", endColorstr="#000000", GradientType=1 );
 }
+
+
 h1 {
     color: #333;
 }
