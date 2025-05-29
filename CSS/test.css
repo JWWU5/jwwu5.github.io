@@ -1,6 +1,6 @@
 
 :root {
-    --card-height: 300px;
+    --card-height: 500px;
     --card-width: calc(var(--card-height) / 1.5);
 }
 
@@ -17,6 +17,14 @@ body {
     align-items: center;
     background: #191c29;
 }
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  
 .card {
     width: var(--card-width);
     height: var(--card-height);
