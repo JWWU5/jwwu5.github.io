@@ -1,17 +1,13 @@
-@font-face {
-    font-family: 'BRUTTALL';
-    src: url('/fonts/BRUTTALL.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+
 :root {
     --card-height: 300px;
     --card-width: calc(var(--card-height) / 1.5);
 }
+
 * {
     box-sizing: border-box;
 }
+
 body {
     width: 100vw;
     height: 100vh;
@@ -21,7 +17,6 @@ body {
     align-items: center;
     background: #191c29;
 }
-
 .card {
     width: var(--card-width);
     height: var(--card-height);
@@ -73,7 +68,7 @@ body {
         transparent 46%,
         rgba(12, 13, 19, 0.5) 68%,
         rgba(12, 13, 19) 97%
-);
+    );
 }
 .wrapper::after {
     bottom: 0;
@@ -83,7 +78,7 @@ body {
         transparent 46%,
         rgba(12, 13, 19, 0.5) 68%,
         rgba(12, 13, 19) 97%
-);
+    );
 }
 
 .card:hover .wrapper::before,
