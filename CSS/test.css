@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'BRUTTALL';
+    src: url('/fonts/BRUTTALL.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
 :root {
     --card-height: 300px;
     --card-width: calc(var(--card-height) / 1.5);
@@ -89,6 +97,7 @@ body {
 .title {
     width: 100%;
     transition: transform 0.5s;
+    font-family: 'MyCustomFont', sans-serif;
 }
 .card:hover .title {
     transform: translate3d(0%, -50px, 100px);
