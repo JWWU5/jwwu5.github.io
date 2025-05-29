@@ -1,6 +1,6 @@
 
 :root {
-    --card-height: 500px;
+    --card-height: 400px;
     --card-width: calc(var(--card-height) / 1.5);
 }
 
