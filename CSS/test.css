@@ -6,7 +6,7 @@ body, html {
   
   #cover {
     height: 100vh; /* 全屏高度 */
-    width: 100%;
+    width: 100vh;
     position: relative;
     overflow: hidden;
   }
