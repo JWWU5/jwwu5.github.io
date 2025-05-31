@@ -1,32 +1,32 @@
+:root {
+    --card-height: 400px;
+    --card-width: calc(var(--card-height) / 1.5);
+}
+
+*{
+    box-sizing: border-box;
+}
+
 body, html {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth; /* 平滑滚动 */
   }
   
-  #cover {
+#cover {
     height: 100vh; /* 全屏高度 */
-    width: 100vh;
+    width: 100vw;
     position: relative;
     overflow: hidden;
-  }
-  
-  #cover img {
+}
+
+#cover img {
     width: 100%;
     height: 100%;
     object-fit: cover; /* 保持图像比例，填满整个容器 */
-  }
-
-:root {
-    --card-height: 400px;
-    --card-width: calc(var(--card-height) / 1.5);
 }
 
-* {
-    box-sizing: border-box;
-}
-
-body {
+#project {
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -36,11 +36,11 @@ body {
     background: #191c29;
 }
 
-.card-container {
+#project .card-container {
     display: flex;
     justify-content: center;
     gap: 30px;
-  }
+}
 
   
 .card {
