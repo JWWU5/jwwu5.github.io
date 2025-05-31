@@ -6,6 +6,10 @@ body {
     line-height: 1.6;
     margin: 20px;
     padding: 0;
+    background-image: url('/images/cover.svg');
+    background-repeat: no-repeat;
+    background-size: cover; /* or 'contain' or custom size */
+    background-position: center;
 }
 
 
